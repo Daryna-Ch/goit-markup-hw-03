@@ -1,0 +1,160 @@
+/* */
+:root {
+    /* color*/
+    --text-footer-color: #f4f4fd;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+    background-color: #ffffff;
+  }
+  
+  /* header start*/
+  a {
+    text-decoration: none;
+  }
+  
+  .link-nav {
+    color: #2e2f42;
+    text-decoration: none;
+  }
+  
+  .link-nav:hover,
+  .link-nav:focus {
+    color: #404bbf;
+  }
+  
+  .logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+  }
+  
+  .logo-header {
+    color: #2e2f42;
+  }
+  
+  .nav-header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .address-list {
+    font-style: normal;
+    font-weight: 400;
+    color: #434455;
+  }
+  
+  .address-list:hover,
+  .address-list:focus {
+    color: #404bbf;
+  }
+  
+  /* header end */
+  
+  /* section 1 hero-image - start */
+  .hero-image {
+    background-color: #2e2f42;
+  }
+  
+  .title-hero {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .button-hero {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4d5ae5;
+    cursor: pointer;
+  }
+  
+  .button-hero:hover,
+  .button-hero:focus {
+    background-color: #404bbf;
+  }
+  
+  /* section 1 hero-image - end */
+  
+  /* section 2 advantages - start */
+  
+  .title-sec {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    text-align: center;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+  
+  .title-thr {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+  }
+  
+  .text-adv {
+    font-size: 16px;
+  }
+  /* section 2 advantages - end */
+  
+  /* section 3 team - start */
+  .team {
+    background-color: #f4f4fd;
+  }
+  
+  .team-card {
+    background-color: #ffffff;
+  }
+  
+  /* section 3 team - end */
+  
+  /* section 4 portfolio - start */
+  .portfolio {
+  }
+  
+  /* section 4 portfolio - end */
+  
+  /* footer start*/
+  .footer {
+    background-color: #2e2f42;
+  }
+  
+  .logo-footer {
+    color: #f4f4fd;
+  }
+  .text-foot {
+    font-size: 16px;
+    color: var(--text-footer-color);
+  }
+  /* footer end*/
+  

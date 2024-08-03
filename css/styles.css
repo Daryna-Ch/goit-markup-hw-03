@@ -139,16 +139,20 @@ a {
 /* section 1 hero-image - start */
 .hero-image {
   background-color: #2e2f42;
+  padding: 188px 0;
+  display: flex;
+  align-items: center;
 }
 
 .title-hero {
+  display: flex;
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  padding-top: 188px;
   padding-bottom: 48px;
   margin: 0;
 }
@@ -165,10 +169,7 @@ a {
   background-color: #4d5ae5;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
-  margin-bottom: 188px;
-}
-
-.button-center {
+  display: block;
   margin-right: auto;
   margin-left: auto;
 }
@@ -193,16 +194,26 @@ a {
   color: #2e2f42;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  visibility: hidden;
   padding: 0;
   margin: 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .advantages-list {
   margin-top: 120px;
   margin-bottom: 120px;
   padding: 0;
-  display: inline;
 }
 
 .advantages-list li {

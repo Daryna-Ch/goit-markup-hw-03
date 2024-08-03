@@ -14,187 +14,215 @@
       rel="stylesheet"
       href="https://cdnjs.com/libraries/modern-normalize"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
-    <header>
-      <nav class="nav-header">
-        <a href="./index.html" class="logo"
-          >Web<span class="logo-header">Studio</span></a
-        >
-        <ul>
-          <li><a href="./index.html" class="link-nav">Studio</a></li>
-          <li><a href="" target="_blank" class="link-nav">Portfolio</a></li>
-          <li><a href="" target="_blank" class="link-nav">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="address-list">
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com" class="address-list"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="address-list">
-              +11 (000) 111-11-11
-            </a>
-          </li>
-        </ul>
-      </address>
+  <body class="page-container">
+    <header class="primery">
+      <div class="container in-line">
+        <nav class="nav-header in-line">
+          <a href="./index.html" class="logo"
+            >Web<span class="logo-header">Studio</span></a
+          >
+          <ul class="in-line menu-list">
+            <li class="in-line"><a href="./index.html" class="link-nav">Studio</a></li>
+            <li class="in-line"><a href="" target="_blank" class="link-nav">Portfolio</a></li>
+            <li class="in-line"><a href="" target="_blank" class="link-nav">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="address-list in-line">
+          <ul class="in-line menu-list"> 
+            <li class="in-line">
+              <a href="mailto:info@devstudio.com" class="address-list"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="in-line">
+              <a href="tel:+110001111111" class="address-list">
+                +11 (000) 111-11-11
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <!-- section 1 Hero image -->
-      <section class="hero-image">
-        <h1 class="title-hero">Effective Solutions for Your Business</h1>
-        <button type="button" class="button-hero">Order Service</button>
-      </section>
+      
+        <section class="hero-image">
+          <div class="container"></div>
+          <h1 class="title-hero">Effective Solutions for Your Business</h1>
+          <button type="button" class="button-hero">Order Service</button>
+        </div>
+        </section>
+      
       <!-- section 2 Advantages -->
-      <section class="advantages">
-        <h2 hidden class="title-sec">Advantages</h2>
-        <ul>
-          <li>
-            <h3 class="title-thr">Strategy</h3>
-            <p class="text-adv">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="title-thr">Punctuality</h3>
-            <p class="text-adv">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="title-thr">Diligence</h3>
-            <p class="text-adv">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3 class="title-thr">Technologies</h3>
-            <p class="text-adv">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+      
+        <section class="advantages">
+          <div class="container">
+          <h2 class="title-sec">Advantages</h2>
+          <ul class="advantages-list in-line">
+            <li class="adv-card in-line">
+              <h3 class="title-thr">Strategy</h3>
+              <p class="text-adv">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li >
+            <li class="adv-card in-line">
+              <h3 class="title-thr">Punctuality</h3>
+              <p class="text-adv">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="adv-card in-line">
+              <h3 class="title-thr">Diligence</h3>
+              <p class="text-adv">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="adv-card in-line">
+              <h3 class="title-thr">Technologies</h3>
+              <p class="text-adv">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        
+        </div>
       </section>
+      
       <!-- section 3 Team -->
-      <section class="team">
-        <h2 class="title-sec">Our Team</h2>
-        <ul>
-          <li class="team-card">
-            <img
-              src="./images/product_designer.jpg"
-              alt="dark-haired man with a beard in a blue shirt"
-              width="264"
-            />
-            <h3 class="title-thr">Mark Guerrero</h3>
-            <p class="text-adv">Product Designer</p>
-          </li>
-          <li class="team-card">
-            <img
-              src="./images/frontend_developer.jpg"
-              alt="smiling man with a beard in a blue shirt"
-              width="264"
-            />
-            <h3 class="title-thr">Tom Ford</h3>
-            <p class="text-adv">Frontend Developer</p>
-          </li>
-          <li class="team-card">
-            <img
-              src="./images/marketing.jpg"
-              alt="woman with long dark hair in a pink sweater"
-              width="264"
-            />
-            <h3 class="title-thr">Camila Garcia</h3>
-            <p class="text-adv">Marketing</p>
-          </li>
-          <li class="team-card">
-            <img
-              src="./images/ui_designer.jpg"
-              alt="dark-haired smiling man in a gray T-shirt"
-              width="264"
-            />
-            <h3 class="title-thr">Daniel Wilson</h3>
-            <p class="text-adv">UI Designer</p>
-          </li>
-        </ul>
-      </section>
+      
+        <section class="team">
+          <div class="container">
+
+          <h2 class="title-sec">Our Team</h2>
+          <ul class="team-list">
+            <li class="team-card">
+              <img
+                src="./images/product_designer.jpg"
+                alt="dark-haired man with a beard in a blue shirt"
+                width="264"
+              />
+              <h3 class="title-thr">Mark Guerrero</h3>
+              <p class="text-adv">Product Designer</p>
+            </li>
+            <li class="team-card">
+              <img
+                src="./images/frontend_developer.jpg"
+                alt="smiling man with a beard in a blue shirt"
+                width="264"
+              />
+              <h3 class="title-thr">Tom Ford</h3>
+              <p class="text-adv">Frontend Developer</p>
+            </li>
+            <li class="team-card">
+              <img
+                src="./images/marketing.jpg"
+                alt="woman with long dark hair in a pink sweater"
+                width="264"
+              />
+              <h3 class="title-thr">Camila Garcia</h3>
+              <p class="text-adv">Marketing</p>
+            </li>
+            <li class="team-card">
+              <img
+                src="./images/ui_designer.jpg"
+                alt="dark-haired smiling man in a gray T-shirt"
+                width="264"
+              />
+              <h3 class="title-thr">Daniel Wilson</h3>
+              <p class="text-adv">UI Designer</p>
+            </li>
+          </ul>
+        </div>
+        </section>
       <!-- section 4 Portfolio -->
-      <section class="portfolio">
-        <h2 class="title-sec">Our Portfolio</h2>
-        <!-- Row 1-->
-        <ul class="portfolio-card">
-          <li>
-            <img
-              src="./images/banking_app.jpg"
-              alt="page layouts of the app bank are purple and white"
-              width="360"
-            />
-            <h3 class="title-thr">Banking App</h3>
-            <p class="text-adv">App</p>
-          </li>
-          <li>
-            <img
-              src="./images/cashless_payment.jpg"
-              alt="phone in the process of reading the QR code"
-              width="360"
-            />
-            <h3 class="title-thr">Cashless Payment</h3>
-            <p class="text-adv">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/meditation_app.jpg"
-              alt="presentation of information on computer and phone screens"
-              width="360"
-            />
-            <h3 class="title-thr">Meditation App</h3>
-            <p class="text-adv">App</p>
-          </li>
-          <li>
-            <img
-              src="./images/taxi_service.jpg"
-              alt="the driver uses the map in the phone"
-              width="360"
-            />
-            <h3 class="title-thr">Taxi Service</h3>
-            <p class="text-adv">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/screen_illustrations.jpg"
-              alt="phone and several wallpapers options"
-              width="360"
-            />
-            <h3 class="title-thr">Screen Illustrations</h3>
-            <p class="text-adv">Design</p>
-          </li>
-          <li>
-            <img
-              src="./images/online_courses.jpg"
-              alt="smiling girl in a yellow sweater using a phone and headphones"
-              width="360"
-            />
-            <h3 class="title-thr">Online Courses</h3>
-            <p class="text-adv">Marketing</p>
-          </li>
-        </ul>
-      </section>
+      
+        <section class="portfolio">
+          <div class="container">
+          <h2 class="title-sec">Our Portfolio</h2>
+          <!-- Row 1-->
+          <ul class="portfolio-card">
+            <li>
+              <img
+                src="./images/banking_app.jpg"
+                alt="page layouts of the app bank are purple and white"
+                width="360"
+              />
+              <h3 class="title-thr">Banking App</h3>
+              <p class="text-adv">App</p>
+            </li>
+            <li>
+              <img
+                src="./images/cashless_payment.jpg"
+                alt="phone in the process of reading the QR code"
+                width="360"
+              />
+              <h3 class="title-thr">Cashless Payment</h3>
+              <p class="text-adv">Marketing</p>
+            </li>
+            <li>
+              <img
+                src="./images/meditation_app.jpg"
+                alt="presentation of information on computer and phone screens"
+                width="360"
+              />
+              <h3 class="title-thr">Meditation App</h3>
+              <p class="text-adv">App</p>
+            </li>
+            <li>
+              <img
+                src="./images/taxi_service.jpg"
+                alt="the driver uses the map in the phone"
+                width="360"
+              />
+              <h3 class="title-thr">Taxi Service</h3>
+              <p class="text-adv">Marketing</p>
+            </li>
+            <li>
+              <img
+                src="./images/screen_illustrations.jpg"
+                alt="phone and several wallpapers options"
+                width="360"
+              />
+              <h3 class="title-thr">Screen Illustrations</h3>
+              <p class="text-adv">Design</p>
+            </li>
+            <li>
+              <img
+                src="./images/online_courses.jpg"
+                alt="smiling girl in a yellow sweater using a phone and headphones"
+                width="360"
+              />
+              <h3 class="title-thr">Online Courses</h3>
+              <p class="text-adv">Marketing</p>
+            </li>
+          </ul>
+        </div>
+        </section>
+
     </main>
     <footer class="footer">
-      <a href="./index.html" class="logo"
-        >Web<span class="logo-footer">Studio</span></a
-      >
-      <p class="text-foot">
-        Increase the flow of customers and sales for your business with digital
-        marketing &amp; growth solutions.
-      </p>
+      <div class="container">
+        <a href="./index.html" class="logo"
+          >Web<span class="logo-footer">Studio</span></a
+        >
+        <p class="text-foot">
+          Increase the flow of customers and sales for your business with
+          digital marketing &amp; growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>

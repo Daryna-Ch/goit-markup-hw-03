@@ -23,7 +23,7 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body class="page-container">
+  <body>
     <header class="primery">
       <div class="container in-line">
         <nav class="nav-header in-line">
@@ -64,9 +64,7 @@
       <section class="hero-image">
         <div class="container">
           <h1 class="title-hero">Effective Solutions for Your Business</h1>
-          <button type="button" class="button-hero button-center">
-            Order Service
-          </button>
+          <button type="button" class="button-hero">Order Service</button>
         </div>
       </section>
 
@@ -120,8 +118,10 @@
                 alt="dark-haired man with a beard in a blue shirt"
                 width="264"
               />
-              <h3 class="title-thr">Mark Guerrero</h3>
-              <p class="text-adv">Product Designer</p>
+              <div class="team-card-title">
+                <h3 class="title-thr card-text">Mark Guerrero</h3>
+                <p class="text-adv card-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-card">
               <img
@@ -129,8 +129,10 @@
                 alt="smiling man with a beard in a blue shirt"
                 width="264"
               />
-              <h3 class="title-thr">Tom Ford</h3>
-              <p class="text-adv">Frontend Developer</p>
+              <div class="team-card-title">
+                <h3 class="title-thr card-text">Tom Ford</h3>
+                <p class="text-adv card-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-card">
               <img
@@ -138,8 +140,10 @@
                 alt="woman with long dark hair in a pink sweater"
                 width="264"
               />
-              <h3 class="title-thr">Camila Garcia</h3>
-              <p class="text-adv">Marketing</p>
+              <div class="team-card-title">
+                <h3 class="title-thr card-text">Camila Garcia</h3>
+                <p class="text-adv card-text">Marketing</p>
+              </div>
             </li>
             <li class="team-card">
               <img
@@ -147,8 +151,10 @@
                 alt="dark-haired smiling man in a gray T-shirt"
                 width="264"
               />
-              <h3 class="title-thr">Daniel Wilson</h3>
-              <p class="text-adv">UI Designer</p>
+              <div class="team-card-title">
+                <h3 class="title-thr card-text">Daniel Wilson</h3>
+                <p class="text-adv card-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -165,10 +171,11 @@
                 src="./images/banking_app.jpg"
                 alt="page layouts of the app bank are purple and white"
                 width="360"
+                class="portfolio-img"
               />
               <div class="portfolio-card-title">
-                <h3 class="title-thr">Banking App</h3>
-                <p class="text-adv">App</p>
+                <h3 class="title-thr card-text">Banking App</h3>
+                <p class="text-adv card-text">App</p>
               </div>
             </li>
             <li class="portfolio-card">
@@ -176,10 +183,11 @@
                 src="./images/cashless_payment.jpg"
                 alt="phone in the process of reading the QR code"
                 width="360"
+                class="portfolio-img"
               />
               <div class="portfolio-card-title">
-                <h3 class="title-thr">Cashless Payment</h3>
-                <p class="text-adv">Marketing</p>
+                <h3 class="title-thr card-text">Cashless Payment</h3>
+                <p class="text-adv card-text">Marketing</p>
               </div>
             </li>
             <li class="portfolio-card">
@@ -187,10 +195,11 @@
                 src="./images/meditation_app.jpg"
                 alt="presentation of information on computer and phone screens"
                 width="360"
+                class="portfolio-img"
               />
               <div class="portfolio-card-title">
-                <h3 class="title-thr">Meditation App</h3>
-                <p class="text-adv">App</p>
+                <h3 class="title-thr card-text">Meditation App</h3>
+                <p class="text-adv card-text">App</p>
               </div>
             </li>
             <li class="portfolio-card">
@@ -198,10 +207,11 @@
                 src="./images/taxi_service.jpg"
                 alt="the driver uses the map in the phone"
                 width="360"
+                class="portfolio-img"
               />
               <div class="portfolio-card-title">
-                <h3 class="title-thr">Taxi Service</h3>
-                <p class="text-adv">Marketing</p>
+                <h3 class="title-thr card-text">Taxi Service</h3>
+                <p class="text-adv card-text">Marketing</p>
               </div>
             </li>
             <li class="portfolio-card">
@@ -209,10 +219,11 @@
                 src="./images/screen_illustrations.jpg"
                 alt="phone and several wallpapers options"
                 width="360"
+                class="portfolio-img"
               />
               <div class="portfolio-card-title">
-                <h3 class="title-thr">Screen Illustrations</h3>
-                <p class="text-adv">Design</p>
+                <h3 class="title-thr card-text">Screen Illustrations</h3>
+                <p class="text-adv card-text">Design</p>
               </div>
             </li>
             <li class="portfolio-card">
@@ -220,10 +231,11 @@
                 src="./images/online_courses.jpg"
                 alt="smiling girl in a yellow sweater using a phone and headphones"
                 width="360"
+                class="portfolio-img"
               />
               <div class="portfolio-card-title">
-                <h3 class="title-thr">Online Courses</h3>
-                <p class="text-adv">Marketing</p>
+                <h3 class="title-thr card-text">Online Courses</h3>
+                <p class="text-adv card-text">Marketing</p>
               </div>
             </li>
           </ul>
@@ -232,8 +244,8 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a href="./index.html" class="logo"
-          >Web<span class="logo-footer">Studio</span></a
+        <a href="./index.html" class="logo logo-footer"
+          >Web<span class="logo-accent-footer">Studio</span></a
         >
         <p class="text-foot">
           Increase the flow of customers and sales for your business with

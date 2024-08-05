@@ -112,13 +112,16 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-right: auto;
-  display: flex;
-  align-items: center;
 }
 
 .menu-list {
   padding: 0;
   margin: 0;
+  gap: 40px;
+}
+
+.menu-list li {
+  padding: 24px 0 24px;
 }
 
 .menu-list li:last-child {
@@ -132,7 +135,7 @@ a {
 }
 
 .address-list li {
-  padding: 24px;
+  padding: 24px 0 24px;
 }
 
 .address-list:hover,
@@ -178,6 +181,7 @@ a {
   margin-right: auto;
   margin-left: auto;
   border: none;
+  min-width: 169px;
 }
 
 .button-hero:hover,
@@ -222,7 +226,7 @@ a {
   margin: 0;
   padding: 0;
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .adv-card {
@@ -235,6 +239,7 @@ a {
   line-height: 120%;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .text-adv {
@@ -266,6 +271,10 @@ a {
   width: calc((100% - 72px) / 4);
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.team-card-img {
+  display: block;
 }
 
 .team-card-title {

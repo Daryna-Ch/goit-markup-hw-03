@@ -114,6 +114,17 @@ a {
   margin-right: auto;
 }
 
+.address-list {
+  font-style: normal;
+  font-weight: 400;
+  color: #434455;
+}
+
+.address-list:hover,
+.address-list:focus {
+  color: #404bbf;
+}
+
 .menu-list {
   padding: 0;
   margin: 0;
@@ -122,25 +133,6 @@ a {
 
 .menu-list-link {
   padding: 24px 0 24px 0;
-}
-
-.menu-list li:last-child {
-  margin-right: 0;
-}
-
-.address-list {
-  font-style: normal;
-  font-weight: 400;
-  color: #434455;
-}
-
-.address-list li {
-  padding: 24px 0 24px;
-}
-
-.address-list:hover,
-.address-list:focus {
-  color: #404bbf;
 }
 
 /* header end */

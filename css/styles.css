@@ -56,13 +56,8 @@ ul {
 
 h1 h2 h3 h4 h5 h6 p ul ol li {
   margin: 0;
+  padding: 0;
 }
-
-/* .page-container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-} */
 
 main {
   flex-grow: 1;
@@ -81,8 +76,6 @@ a {
 .link-nav {
   color: #2e2f42;
   text-decoration: none;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .link-nav:hover,
@@ -116,11 +109,10 @@ a {
 }
 
 .address-list {
+  padding: 0;
   font-style: normal;
   font-weight: 400;
   color: #434455;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .address-list:hover,
@@ -134,10 +126,10 @@ a {
   gap: 40px;
 }
 
-/* .menu-list-link {
+.menu-list-link {
   padding-top: 24px;
   padding-bottom: 24px;
-} */
+}
 
 /* header end */
 
@@ -159,6 +151,7 @@ a {
   text-align: center;
   color: #fff;
   margin-bottom: 48px;
+  margin-top: 0;
 }
 
 .button-hero {
